@@ -1,0 +1,42 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.topic,
+.note {
+    max-width: 45rem;
+    margin: 0 auto;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    line-height: 1.78;
+    font-size: 1.125rem;
+}
+
+.topic p,
+.note p {
+    margin: 0 0 1.125rem 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 2px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
