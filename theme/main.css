@@ -11,12 +11,36 @@ html {
 
 body {
     margin: 0;
+    background: #FAFAFA;
+}
+
+header,
+footer,
+.note,
+.topic {
+    max-width: 45rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header a,
+footer a {
+    color: #333;
+}
+
+header .inner {
+    border-bottom: 1px dotted #CBE8E8;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+
+footer .inner {
+    border-top: 1px dotted #CBE8E8;
+    padding: 1rem 0;
 }
 
 .topic,
 .note {
-    max-width: 45rem;
-    margin: 0 auto;
     font-family: Georgia, serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
@@ -28,6 +52,12 @@ body {
 .topic p,
 .note p {
     margin: 0 0 1.125rem 0;
+}
+
+code {
+    border-radius: 2px;
+    background: #EEE;
+    padding: 3px;
 }
 
 h1,
