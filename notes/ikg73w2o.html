@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>joshwnj / public wiki</title>
+        <link href="../theme/main.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="inner">
+                <a href="/topics/">topics</a>
+            </div>
+        </header>
+
+        <div class="note"><div class="note-content"><p>idea: better slack + github notification.</p>
+<p>pain points with current integration:</p>
+<ul>
+<li>when you have github notifications going to a slack channel it quickly becomes too noisy for any other conversation</li>
+<li>if there is a conversation going on in a github issue, and then people see the notification in slack and start discussing it there, we have a fragmented discussion</li>
+</ul>
+<p>notes:</p>
+<ul>
+<li>what if we had a dedicated github notiication channel that was understood to be read-only?</li>
+<li>
+<p>or what if, instead of spewing out every commit and comment, it gave some other kind of helpful visual indication of:</p>
+<ul>
+<li>progress (commits, comments)</li>
+<li>spikes (lots of commits / comments in a short time)</li>
+<li>use ascii-art to show basic graphs showing spikes?</li>
+</ul>
+</li>
+</ul>
+<p>prototype:</p>
+<ul>
+<li>every 5 minutes, bot gives a status update</li>
+<li>only if something has happened during that time</li>
+<li>commits by dev</li>
+<li>new issues / PRs</li>
+<li>comments by issue</li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://github.com/rvagg/github-webhook-handler">https://github.com/rvagg/github-webhook-handler</a> for webhooks</li>
+<li>ngrok for developing github webhooks locally</li>
+<li><a href="https://github.com/jstrace/chart">https://github.com/jstrace/chart</a> for charts</li>
+</ul>
+</div></div>
+
+        <footer>
+            <div class="inner">
+                <a href="https://twitter.com/joshwnj" target="_blank">&rarr; twitter</a>
+            </div>
+        </footer>
+</html>
