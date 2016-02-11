@@ -74,3 +74,12 @@ h1 {
 a:hover > .icon-link:after {
     content: '$'
 }
+
+.incoming-links {
+    border-top: 1px dotted #CBE8E8;
+}
+
+.incoming-links h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
