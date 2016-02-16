@@ -1,6 +1,5 @@
 ---
 title: css modules
-layout: post
 ---
 
 # css-modules
