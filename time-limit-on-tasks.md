@@ -9,4 +9,3 @@ idea: when starting a task, set a time limit (and use an actual timer).
 -   30 minutes is a good starting place for new tasks that I'm not sure about. That's enough time to either complete a short task, or prepare myself for a longer one.
 
 -   it's ok to go past the timer if you're just doing final stages of wrapup, sending email, etc. But shouldn't go beyond a couple of minutes, and shouldn't introduce anything new.
-null

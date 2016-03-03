@@ -13,4 +13,3 @@ Q. how can you make annotations on specific lines of a file?
 
 -   option: copy/paste an identifiable chunk into code
     -   con: might have some unusual edge cases
-null

@@ -18,4 +18,3 @@ A bunch of ideas I'd like to work on.
 [requirements]: requirements.md
 
 [requirements/annotate screenshots]: requirements.md#annotate-screenshots
-null

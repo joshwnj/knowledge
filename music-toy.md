@@ -8,4 +8,3 @@
 -   use 3 keyboard keys: prev / curr / next
 -   keys play a note, advancing in the pattern as you use `next`
 -   other keys transpose the pattern, so you can effectively play the same role as rythym guitar
-null

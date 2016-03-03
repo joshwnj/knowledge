@@ -17,4 +17,3 @@ Goals:
 -   Q. how does it go with a .css.js module?
 
 -   Q. would icss be better as a js module that exports objects?
-null

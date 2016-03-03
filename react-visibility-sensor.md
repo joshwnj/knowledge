@@ -2,4 +2,3 @@
 
 -   [ ] discuss the timer / dom event discussion
 -   [ ] \#26
-null

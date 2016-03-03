@@ -9,4 +9,3 @@ idea: headless backend
 -   and the response can also contain new URLs to complete various follow-up actions
 
 -   the goal is that we present a graph of possible next-steps and outcomes
-null
