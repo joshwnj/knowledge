@@ -2,6 +2,18 @@
 
 Notes about [css-modules](https://github.com/css-modules)
 
+## [](#todo)todo
+
+-   [ ] try [factor-bundle](https://github.com/substack/factor-bundle) with css modules
+
+-   [ ] look at how [parcelify](https://github.com/rotundasoftware/parcelify) handles rebuilds of changes to node\_modules
+
+-   [ ] do we get any useful info about css modules from [disc](http://hughsk.io/disc/) ?
+
+-   [ ] source maps
+
+-   [ ] see if there's anything useful here: <https://github.com/ForbesLindesay/acorn-compile/blob/master/test/index.js>
+
 ## [](#test-suite)test suite
 
 Goals:
