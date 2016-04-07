@@ -6,7 +6,7 @@ Notes about [css-modules](https://github.com/css-modules)
 
 -   [ ] try [factor-bundle](https://github.com/substack/factor-bundle) with css modules
 
--   [ ] look at how [parcelify](https://github.com/rotundasoftware/parcelify) handles rebuilds of changes to node\_modules
+-   [ ] look at how [parcelify](https://github.com/rotundasoftware/parcelify) handles rebuilds of changes to node_modules
 
 -   [ ] do we get any useful info about css modules from [disc](http://hughsk.io/disc/) ?
 
