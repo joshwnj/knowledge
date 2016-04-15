@@ -14,6 +14,10 @@ Notes about [css-modules](https://github.com/css-modules)
 
 -   [ ] see if there's anything useful here: <https://github.com/ForbesLindesay/acorn-compile/blob/master/test/index.js>
 
+-   [ ] show example of theming using `@value`
+
+-   [ ] show example of including a global `reset.css`, and base theme as inline
+
 ## [](#test-suite)test suite
 
 Goals:
