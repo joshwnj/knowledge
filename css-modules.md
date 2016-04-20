@@ -1,10 +1,12 @@
-# [](#css-modules)css-modules
+# [](#css-modules)CSS Modules
 
 Notes about [css-modules](https://github.com/css-modules)
 
 ## [](#todo)todo
 
 -   [ ] try [factor-bundle](https://github.com/substack/factor-bundle) with css modules
+
+-   [ ] find out more about global class composition: <https://github.com/css-modules/postcss-modules-scope/commit/d476194758c7ecf17b0f2d19b93ea32ac3a758e6>
 
 -   [ ] look at how [parcelify](https://github.com/rotundasoftware/parcelify) handles rebuilds of changes to node_modules
 
@@ -17,6 +19,10 @@ Notes about [css-modules](https://github.com/css-modules)
 -   [ ] show example of theming using `@value`
 
 -   [ ] show example of including a global `reset.css`, and base theme as inline
+
+## [](#css-modules-faq)css modules faq
+
+Some good ideas here: <https://github.com/css-modules/css-modules/issues/137>
 
 ## [](#test-suite)test suite
 
