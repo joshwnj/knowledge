@@ -20,6 +20,11 @@ Notes about [css-modules](https://github.com/css-modules)
 
 -   [ ] show example of including a global `reset.css`, and base theme as inline
 
+## [](#parameterized-css-modules)parameterized css modules
+
+-   [ ] idea: treat module @values as inputs, so when you import a module you can supply different values
+    -   <https://github.com/css-modules/css-modules-loader-core/issues/103#issuecomment-210188178>
+
 ## [](#css-modules-faq)css modules faq
 
 Some good ideas here: <https://github.com/css-modules/css-modules/issues/137>
