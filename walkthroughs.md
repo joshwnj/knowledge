@@ -1,0 +1,13 @@
+# [](#walkthroughs)walkthroughs
+
+A `walkthrough` is an experimental approach for producing _verifiable documentation_. That is, the documentation tells us how the software is expected to work, and also gives a way to confirm whether it is working as described.
+
+The style of documentation is to describe a user's interaction with the software using a combination of text, graphics and data.
+
+## [](#how-is-this-different-from-automated-testing)How is this different from automated testing
+
+Unit tests and other forms of automated tests also provide a form of verifiable documentation, in that you can the tests to understand how the software should behave and you can run the tests to tell whether it's working as expected.
+
+Walkthroughs aren't intended to replace this style of testing, just to offer an alternative for certain cases where you're testing higher-level functionality and you want something more human-friendly.
+
+A key difference: unit tests and the like work by first setting up the state-of-the-world, then triggering an interaction, and then comparing the actual result to an expected result. With walkthroughs the focus is on capturing artefacts from the system (whether screenshots or data) and then comparing those reference artefacts to subsequent recordings, to see what changed. So they are less black-and-white and more difficult to fully automate, but require less overhead to create or refactor as requirements change.
