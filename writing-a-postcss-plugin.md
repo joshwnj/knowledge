@@ -1,4 +1,4 @@
-# [](#writing-a-postcss-plugins)writing a postcss plugins
+# [](#writing-a-postcss-plugin)writing a postcss plugin
 
 -   <https://github.com/postcss/postcss/blob/master/docs/writing-a-plugin.md>
 
