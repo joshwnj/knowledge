@@ -8,6 +8,8 @@ If you just want to run js in a page there is <http://electron.atom.io/docs/api/
 
 However if you want to read some information or get a result you need to use `ipc`. Example here of using `ipc` with `executeJavaScript` together: <https://discuss.atom.io/t/how-to-return-value-from-webcontents-executejavascript/22726/9>
 
+There's a small helper module for this too: <https://github.com/joshwnj/electron-run-in-browser>
+
 ### [](#with-a-preload-script)with a `preload` script
 
 When creating a `BrowserWindow` you can specify a js file in the `webPreferences.preload` option: <http://electron.atom.io/docs/api/browser-window/>
