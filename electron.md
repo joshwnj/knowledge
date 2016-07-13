@@ -1,6 +1,6 @@
 # [](#electron)electron
 
-## [](#executing-js-in-a-browserview)Executing js in a BrowserView
+## [](#executing-js-in-a-browserwindow)Executing js in a BrowserWindow
 
 ### [](#with-executejavascript)with `executeJavaScript`
 
@@ -10,6 +10,6 @@ However if you want to read some information or get a result you need to use `ip
 
 ### [](#with-a-preload-script)with a `preload` script
 
-When creating a `BrowserView` you can specify a js file in the `webPreferences.preload` option: <http://electron.atom.io/docs/api/browser-window/>
+When creating a `BrowserWindow` you can specify a js file in the `webPreferences.preload` option: <http://electron.atom.io/docs/api/browser-window/>
 
 This file is run before any js, and has access to the electron API so you can set up communication over `ipc`.
