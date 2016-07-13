@@ -18,8 +18,3 @@ Now say we fetch an object over a json api. Most things should be in their natur
 Now we want to populate an edit-form with the object. Date objects are still fine, but arrays need to be serialized to comma-separated strings. And maybe some nested objects need to be flatten. So this will be `foo -> foo2`.
 
 When the form is submitted we just need a function `foo2 -> foo` and then we can also have a `foo -> foo1` to send back to the api.
-
-## Referenced from:
-
-
-- [ideas](ideas.md)

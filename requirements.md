@@ -13,8 +13,3 @@
 ## [](#annotate-screenshots)Annotate screenshots
 
 -   rather than having to manually name each thing when you describe it, we need to be able to say "this thing" and point to an area in an image file.
-
-## Referenced from:
-
-
-- [ideas](ideas.md)
