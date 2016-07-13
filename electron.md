@@ -1,0 +1,15 @@
+# [](#electron)electron
+
+## [](#executing-js-in-a-browserview)Executing js in a BrowserView
+
+### [](#with-executejavascript)with `executeJavaScript`
+
+If you just want to run js in a page there is <http://electron.atom.io/docs/api/web-contents/#webcontentsexecutejavascriptcode-usergesture-callback>
+
+However if you want to read some information or get a result you need to use `ipc`. Example here of using `ipc` with `executeJavaScript` together: <https://discuss.atom.io/t/how-to-return-value-from-webcontents-executejavascript/22726/9>
+
+### [](#with-a-preload-script)with a `preload` script
+
+When creating a `BrowserView` you can specify a js file in the `webPreferences.preload` option: <http://electron.atom.io/docs/api/browser-window/>
+
+This file is run before any js, and has access to the electron API so you can set up communication over `ipc`.
