@@ -19,6 +19,22 @@ just wait for the next version of `@horizon/client` to be published (`1.1.3` at 
 
 If you want to patch in the meantime, remove `require('imports?this=>global!exports?global.fetch!isomorphic-fetch');` from `node_modules/@horizon/client/lib/util/fetch.js`
 
+## socket errors
+
+Sometimes you try to connect a client to the server and you'll get a socket error. One thing to check is whether your server's auth settings allow this kind of connection. Eg. if you've got:
+
+```
+const options = {
+  auth: {
+    allow_anonymous: false,
+    allow_unauthenticated: true,
+  }
+}
+```
+
+And you're trying to connect a client with `{ authType: 'anonymous' }`, it may fail with a generic socket error, and not explicitly tell you that the connection was rejected due to auth settings.
+
+
 ## notes
 
 I observed that using `require('@horizon/client)` resulted in an error: `Error: Cannot find module 'imports?this=>global!exports?global.fetch!isomorphic-fetch'`
