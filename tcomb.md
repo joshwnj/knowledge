@@ -1,0 +1,15 @@
+# [](#tcomb)tcomb
+
+<https://github.com/gcanti/tcomb>
+
+## [](#custom-fail-handler)custom fail handler
+
+By default, when a type validation fails `tcomb` throws a `TypeError`.  In local development it can be useful to override this behaviour and start the debugger instead. Then we can easily browse up the stack to identify where the data came from:
+
+```js
+const t = require('tcomb')
+
+t.fail = function fail (message) {
+  debugger;
+}
+```
