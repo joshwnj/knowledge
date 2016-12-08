@@ -1,4 +1,3 @@
 # webaudio
 
-- [play a randomized major chord](http://jsbin.com/wowixuboxa/edit?js,output)
-- [lost](http://jsbin.com/kopifikoje/edit?js,output)
+- mucking around with some ideas for non-repeating audio, within a set of constraints: <http://jsbin.com/baxowu/edit?js,output>
