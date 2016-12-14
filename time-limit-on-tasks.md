@@ -9,3 +9,17 @@ idea: when starting a task, set a time limit (and use an actual timer).
 -   30 minutes is a good starting place for new tasks that I'm not sure about. That's enough time to either complete a short task, or prepare myself for a longer one.
 
 -   it's ok to go past the timer if you're just doing final stages of wrapup, sending email, etc. But shouldn't go beyond a couple of minutes, and shouldn't introduce anything new.
+
+## context switching
+
+I do a lot of context switching on a daily basis. Many projects that I need to juggle and keep moving.
+
+One way to approach this is:
+
+- start of the day, write a list of each project that needs some attention.
+- before diving into any of them, give each one a 30 minute block.
+- 30 minutes is not usually enough time to "finish", so the focus is on discovery and planning. Spend the time writing a plan of what to accomplish today, and how long to devote to that.
+
+This helps to avoid the situation of getting to the end of the day and realizing that too many important topics are untouched.
+
+In an asynchronous team, even moving just 1 thing forward can make all the difference.
