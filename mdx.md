@@ -1,6 +1,8 @@
 # mdx
 
-idea: variant of markdown which can include jsx components.
+A variant of markdown which can include jsx components.
+
+the vision: modular web pages which export both content and data
 
 ## why?
 
