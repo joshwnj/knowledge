@@ -16,3 +16,21 @@ const MyTag = function (props) {
   <MyTag inline>This is rendererd as a span</MyTag>
 </div>
 ```
+
+I like the approach of declaring a react component as a set of custom meaningful elements. Eg.
+
+```js
+<Root>
+  <MainImage>
+  <Caption>
+</Root>
+```
+
+is much better to work with than:
+
+```js
+<div className={'root'}>
+  <img className={'main'} />
+  <div className={'caption'} />
+</div>
+```
