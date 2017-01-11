@@ -21,8 +21,8 @@ I like the approach of declaring a react component as a set of custom meaningful
 
 ```js
 <Root>
-  <MainImage>
-  <Caption>
+  <MainImage />
+  <Caption />
 </Root>
 ```
 
