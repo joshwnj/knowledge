@@ -16,6 +16,14 @@ Think about the things you did, or are currently doing.  For each one, see if yo
 
 - Maybe it's not brand new knowledge, but you were reminded of something you learned in the past. Maybe you brushed up your knowledge with some googling / stackoverflowing. Maybe you were given some helpful advice from someone else. In any case, write about it here.
 
+**Blockers:** things that might slow or stop future progress.
+
+- Whenever you talk about a blocker, also write about what you will do in the meantime. Unless you're completely 100% blocked, make sure you don't give that impression.
+
+- Try to list potential blockers as well, like a "known unknown" or a grey-area which you're not certain about yet.
+
+- Don't be shy to talk about blockers, even if you're still making gradual progress. If something is taking you significantly longer than you expected, this is a good place to bring it up.  Try to identify the reasons why it's taking longer.
+
 **Reflection:** notes arising from your experience of doing the work.
 
 - Think about future maintainers of the code, or other people doing similar activities in future. Are there things they'll need to keep in mind, or things that will make their job easier?
