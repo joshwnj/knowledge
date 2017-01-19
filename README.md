@@ -4,10 +4,7 @@ Repository for recording knowledge about things I'm learning and things I'm inte
 
 ## web ring
 
-- https://github.com/yoshuawuyts/knowledge
-- https://github.com/sotayamashita/knowledge
-- https://github.com/theatlasroom/tidbits
-- https://github.com/sotojuan/knowledge
+There are a few other knowledge lists. Join us here: https://github.com/RichardLitt/meta-knowledge/blob/master/README.md
 
 ## License
 
