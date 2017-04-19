@@ -26,33 +26,38 @@ We could rewrite it to say _"Render an Element, with varying props based on Cond
 
 ```js
   const buttonProps = {
-    className: styles.button,
-    type: 'button',
-    onclick: props.handleClick,
     disabled: props.isSubmitting || props.isButtonDisabled,
-    value: props.isSubmitting ?
-      'Checking...' :
-      `Submit`
+    value: props.isSubmitting ? 'Checking...' : 'Submit'
   }
 
-  const button = <input {...buttonProps} />
+  const button = (
+    <input
+      className={styles.button}
+      type="button"
+      onclick={props.handleClick}
+      {...buttonProps} />
+  )
 ```
 
-Another approach would be to separate the normal case from the edge case. That can make the conditional parts stand out even a little more:
+Now it's easy to see the common props and the props that change.
+
+A variation on this would be to separate the normal case from the edge case, and move towards a slightly more declarative form. That can make the conditional parts stand out even a little more:
 
 ```js
-  const buttonProps = {
-    className: styles.button,
-    type: 'button',
-    value: 'Submit',
-    onclick: props.handleClick,
-    disabled: props.isButtonDisabled
-  }
+  const submittingProps = props.isSubmitting ? {
+    disabled: true,
+    value: 'Checking...'
+  } : {}
 
-  if (props.isSubmitting) {
-    buttonProps.disabled = true
-    buttonProps.value = 'Checking...'
-  }
-
-  const button = <input {...buttonProps} />
+  const button = (
+    <input
+      className={styles.button}
+      type="button"
+      onclick={props.handleClick}
+      disabled={props.isButtonDisabled}
+      value="Submit"
+      {...submittingProps} />
+  )
 ```
+
+Here we can easily see the default state in `button`, and see what changes when it is submitting.
