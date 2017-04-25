@@ -19,3 +19,4 @@ So far I'm leaning towards this:
 - every post file follows a pattern of `posts/YYYY/MM/DD/{name}.md`
 - sometimes a post will reference a previous post. Editor shortcut is good for creating links.
 - can be useful to also have `topics/{name}.md` for a long-running topic summary. Kind of link an anchor, and easy to link to.
+- here's a simple bash script to start: you give it a name, it creates the file and opens in your favourite editor: https://gist.github.com/joshwnj/58e3cdac8b7ccf4c41fcff2b3ad3189e
