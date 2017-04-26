@@ -1,4 +1,4 @@
-# til
+# TIL
 
 For those who keep a dev journal like I do, I'd like to introduce a new type of journal entry: the "TIL".
 
