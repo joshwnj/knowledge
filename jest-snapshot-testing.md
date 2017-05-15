@@ -1,5 +1,9 @@
 # jest snapshot testing
 
+I've tried using jest on 2 separate occasions before, and both times found it was either too weird or buggy. This was a while back.
+
+Seems to be a lot more stable now, so maybe 3rd time's the charm? I'm most interested in incorporating snapshot testing into my workflow.
+
 - https://facebook.github.io/jest/docs/tutorial-react.html
 - works with plain functions as well as react components. nice.
 
