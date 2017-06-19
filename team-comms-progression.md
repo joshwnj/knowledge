@@ -1,6 +1,8 @@
 # Team communication
 
-Consider the progression here:
+Asking for direction is great, but always look for opportunities to become more self-sufficient. Then you'll be able to help the next person.
+
+Consider this progression:
 
 ## what should I do next?
 
