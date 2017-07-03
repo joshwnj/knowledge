@@ -8,3 +8,5 @@
 - [time limit on tasks](_notes/2017-06/30-058.md)
 - [today VS tomorrow](_notes/2017-06/30-059.md)
 - [types of work](_notes/2017-06/30-061.md)
+- [idea: personal docket system](_notes/2017-07/03-001.md)
+- [high-brain, low-brain](_notes/2017-07/03-002.md)
