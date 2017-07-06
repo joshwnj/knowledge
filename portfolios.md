@@ -8,3 +8,7 @@
   - here's how I started doing `<thing>`
   - then I learned `<technique>`
   - now it looks like `<improved thing>`
+
+## notes
+
+- [self-critique](_notes/2017-07/04-008.md)
