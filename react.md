@@ -9,6 +9,7 @@
 
 - [experimental declarative react](_notes/2017-08/21-019.md)
 - [thoughts on catch-22](_notes/2017-09/01-005.md)
+- [prop references](_notes/2017-09/04-007.md)
 
 ## redux
 
