@@ -4,6 +4,7 @@
 - [custom jsx elements](_notes/2017-06/30-047.md)
 - [refactoring a function to limit knowledge](_notes/2017-07/24-013.md)
 - [2 concepts of pure components](_notes/2017-09/04-009.md)
+- [avoid fat-arrows in render](_notes/2017-09/04-010.md)
 
 ## drx
 
